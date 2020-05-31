@@ -3,19 +3,19 @@
   "version": "1.0.0",
   "description": "Portfolio Website",
   "main": "index.js",
-  "homepage": "https://johnhoadley.github.io/portfolio",
+  "homepage": "https://johnhoadley.github.io/website",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnhoadley/portfolio.git"
+    "url": "git+https://github.com/johnhoadley/website.git"
   },
   "author": "John Hoadley",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/johnhoadley/portfolio/issues"
+    "url": "https://github.com/johnhoadley/website/issues"
   },
   "dependencies": {
     "gh-pages": "^2.2.0",
