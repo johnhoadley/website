@@ -173,7 +173,7 @@ body {
 }
 
 body#bg-img {
-  background: url(../img/background.jpg);
+  background: url(../dist/img/background.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -259,12 +259,6 @@ main#home h1 {
       grid-template-areas: 'bio bio bio' 'job1 job2 job3';
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  /*.bio-image {
-        grid-area: bioimage;
-        margin: auto;
-        border-radius: 50%;
-        border: $secondary-color 3px solid;
-    }*/
 }
 
 .about-info .bio {
@@ -436,7 +430,7 @@ main#home h1 {
     height: 150px;
   }
   .about-info {
-        grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+        grid-template-areas: 'bio' 'bio' 'job1' 'job2' 'job3';
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
